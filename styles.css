@@ -24,3 +24,56 @@ font-size: larger;}
     text-decoration: none;
     color: white;
 }
+
+
+img { width:100%;
+display:flex; 
+justify-content: flex-start;
+}
+
+header { 
+    display: flex; 
+    height: 100px;
+    background-color: rgb(140, 183, 173);
+    margin-bottom: 500;
+    padding-bottom: 500px;
+    color:rgb(213, 210, 210);
+
+   }
+
+   .finedining {
+    display: flex;
+    justify-content: center;
+    padding-left: 300px;
+   }
+
+   .subheader { 
+font-size: 50px;
+   }
+
+   .extrayap { 
+    display: flex;
+    align-items: center;
+
+font-size: 100px;
+   }
+
+.btn { 
+    
+    text-decoration: none;
+    color: rgb(50, 52, 55);
+    background-color:rgb(213, 210, 210);
+    
+    
+}
+.btn-outlined { 
+    text-decoration: none;
+    color: rgb(50, 52, 55);
+    background-color:rgb(213, 210, 210);
+
+
+}
+
+.bgcolor { 
+    background-image: url(resturant.jpeg);
+}
