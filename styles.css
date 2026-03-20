@@ -1,79 +1,97 @@
-body{ margin: 0px;}
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
 
 
-.navbar { display: flex;
-justify-content: space-between;
-align-items:center;
-background-color: rgb(22, 96, 96);
-color: rgb(237, 233, 233);
-padding:15px 30px;
-list-style: none;
-font-size: larger;}
+.header {
+    background-color: rgb(22, 96, 96);
+    overflow: hidden;
+    padding: 0 30px;
+}
+
+.nav-logo {
+    float: left;
+    color: rgb(237, 233, 233);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 56px;
+}
+
+.navbar {
+    float: right;
+}
 
 
 
-.navlinks { list-style: none;
-    display: flex;
-    gap: 25px ;
+.navlinks {
+    list-style: none;
+    padding: 0;
     margin: 0;
-    color: aliceblue;
+    overflow: hidden;
 
 }
 
-.navbar a{ 
+.navlinks li {
+    float: left;
+}
+
+.navbar a {
     text-decoration: none;
     color: white;
 }
 
 
-img { width:100%;
-display:flex; 
-justify-content: flex-start;
+img {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
 }
 
-header { 
-    display: flex; 
-    height: 100px;
+.header {
     background-color: rgb(140, 183, 173);
-    margin-bottom: 500;
-    padding-bottom: 500px;
-    color:rgb(213, 210, 210);
+    overflow: hidden;
+    padding: 0 30px;
 
-   }
 
-   .finedining {
+
+
+}
+
+.finedining {
     display: flex;
     justify-content: center;
     padding-left: 300px;
-   }
+}
 
-   .subheader { 
-font-size: 50px;
-   }
+.subheader {
+    font-size: 50px;
+}
 
-   .extrayap { 
+.extrayap {
     display: flex;
     align-items: center;
 
-font-size: 100px;
-   }
-
-.btn { 
-    
-    text-decoration: none;
-    color: rgb(50, 52, 55);
-    background-color:rgb(213, 210, 210);
-    
-    
+    font-size: 100px;
 }
-.btn-outlined { 
+
+.btn {
+
     text-decoration: none;
     color: rgb(50, 52, 55);
-    background-color:rgb(213, 210, 210);
+    background-color: rgb(213, 210, 210);
 
 
 }
 
-.bgcolor { 
+.btn-outlined {
+    text-decoration: none;
+    color: rgb(50, 52, 55);
+    background-color: rgb(213, 210, 210);
+
+
+}
+
+.bgcolor {
     background-image: url(resturant.jpeg);
 }
