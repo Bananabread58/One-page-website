@@ -45,7 +45,7 @@ body {
 }
 
 .navbar a:hover {
-    background-color: rgb 15, 70, 70;
+    background-color: rgb(15, 70, 70);
 }
 
 img {
@@ -56,7 +56,7 @@ img {
 
 
 .hero {
-    background-color: rgb (140, 183, 173);
+    background-color: rgb(140, 183, 173);
     overflow: hidden;
     padding: 60px 30px;
 }
@@ -82,31 +82,30 @@ img {
 }
 
 .finedining {
+    display: flex;
+    justify-content: center;
     font-size: 42px;
     color: rgb(50, 52, 55);
     margin-bottom: 16px;
-    text-align: left;
+    background-color: #e8ebeb;
+    border-radius: 10px;
+    padding-left: 20px;
 }
 
 
 .subheader {
     font-size: 20px;
-    color: rgb(196, 202, 211);
+    color: rgb(35, 36, 37);
     margin-bottom: 12px;
     text-align: left;
 }
 
 .extrayap {
     font-size: 16px;
-    color: rgb(145, 151, 162);
+    color: rgb(35, 36, 39);
     margin-bottom: 28px;
-    text-decoration: left;
-    justify-content: 20px;
-}
 
-.btn {
-
-    text-decoration: none;
+.btn { text-decoration: none;
     color: rgb(170, 177, 187);
     background-color: rgb(213, 210, 210);
 
@@ -131,7 +130,7 @@ img {
 }
 
 .about {
-    background-color: rgb(198, 209, 207);
+    background-color: rgb(169, 178, 176);
     display: flex;
     justify-content: flex-start;
     color: #424040;
@@ -140,6 +139,10 @@ img {
     padding-right: 100px;
     justify-content: space-between;
     border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+
+
 
 
 }
@@ -167,7 +170,7 @@ img {
 
 
 .quotes {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(154, 154, 157);
     color: rgb(96, 102, 102);
     border-color: rgb(82, 139, 134);
     border-radius: 100px;
@@ -175,10 +178,7 @@ img {
     padding: 15px;
 }
 
-.about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
 
 
 
@@ -187,30 +187,27 @@ img {
 }
 
 .origin-text {
-    color: #555d5c;
+    color: #000000;
     display: flex;
-    background-color: white;
+    background-color: rgb(181, 181, 181);
     align-items: center;
-    padding-left: 500px;
     border: 100px;
     border-radius: 10px;
     align-items: center;
-    padding-top: 10px;
     justify-content: center;
 
 
 }
 
 .origin-yap {
-    color: rgb(152, 161, 160);
+    color: rgb(24, 26, 26);
     display: flex;
     flex-direction: column;
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(214, 217, 218);
     border-radius: 10px;
     border: 100px none black;
     padding-top: 10px;
     padding-bottom: 10px;
-    display: center;
     align-items: center;
 
 
